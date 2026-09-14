@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - ci-per-commit-check
 
 # Every commit pushed to main gets a CI run of its own, and nothing cancels it.
 #
